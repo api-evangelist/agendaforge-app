@@ -64,5 +64,154 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-agendaforge-app is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://agendaforge.app/
+AgendaForge is an AI-native event management platform that enables conferences to run call-for-papers, abstract review, agenda building, speaker and sponsor management, ticketing, door check-in, and event operations in a single workspace. It offers per-event pricing, white-glove onboarding, and integrates with Stripe and USDC for payments.
+
+**Areas:** Event Management · SaaS · AI-native · Conferences · Software
+
+## agendaforge-app on APIs.io
+
+Everything profiled for agendaforge-app is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/agendaforge-app/](https://apis.io/providers/agendaforge-app/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [agendaforge-app Connection API](https://apis.io/apis/agendaforge-app/agendaforge-app-connection-api/) — Validate a key and identify the organization it is scoped to.
+- [agendaforge-app Jobs API](https://apis.io/apis/agendaforge-app/agendaforge-app-jobs-api/) — Async work: 202 Accepted imports and the pollable job resource.
+- [agendaforge-app Records API](https://apis.io/apis/agendaforge-app/agendaforge-app-records-api/) — Cursor-paginated lists, create actions, and batch create for contacts, sessions, and sponsors.
+- [agendaforge-app Webhooks API](https://apis.io/apis/agendaforge-app/agendaforge-app-webhooks-api/) — REST Hook subscriptions for trigger events, plus sample records for field mapping.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Agendaforge App Webhooks](https://apis.io/asyncapis/agendaforge-app/agendaforge-app-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Agendaforge App Agentic Access](https://apis.io/agentic-access/agendaforge-app/agendaforge-app-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Contact](https://apis.io/schemas/agendaforge-app/agendaforge-app-contact/)
+- [CreateSessionRequest](https://apis.io/schemas/agendaforge-app/agendaforge-app-create-session-request/)
+- [Job](https://apis.io/schemas/agendaforge-app/agendaforge-app-job/)
+- [Session](https://apis.io/schemas/agendaforge-app/agendaforge-app-session/)
+- [Sponsor](https://apis.io/schemas/agendaforge-app/agendaforge-app-sponsor/)
+- [TicketsImportJob](https://apis.io/schemas/agendaforge-app/agendaforge-app-tickets-import-job/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Agendaforge App Context](https://apis.io/jsonld/agendaforge-app/agendaforge-app-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [agendaforge-app API Rules](https://apis.io/rules/agendaforge-app/agendaforge-app-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Agendaforge App Authentication](https://apis.io/security/agendaforge-app/agendaforge-app-authentication/)
+- [Agendaforge App Domain Security](https://apis.io/security/agendaforge-app/agendaforge-app-domain-security/)
+- [Agendaforge App Vulnerability Disclosure](https://apis.io/security/agendaforge-app/agendaforge-app-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Agendaforge App Scopes](https://apis.io/scopes/agendaforge-app/agendaforge-app-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Agendaforge App Plans Pricing](https://apis.io/plans/agendaforge-app/agendaforge-app-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Agendaforge App Rate Limits](https://apis.io/rate-limits/agendaforge-app/agendaforge-app-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://agendaforge.app/)
+- [Documentation](https://agendaforge.app/docs/api)
+- [Getting started](https://agendaforge.app/index.md)
+- [API reference](https://agendaforge.app/openapi.json)
+- [Pricing](https://agendaforge.app/pricing)
+- [Support](https://agendaforge.app/contact)
+- [Changelog](https://agendaforge.app/changelog)
+- [Blog](https://agendaforge.app/blog)
+- [Security](https://agendaforge.app/security)
+- [Terms of service](https://agendaforge.app/terms)
+- [Privacy policy](https://agendaforge.app/privacy-policy)
+- [GitHub](https://github.com/agendaforge)
+
+## API Evangelist rating
+
+**Kin Score 68.0** — exemplar · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 70.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 58.4 |
+| Developer ergonomics | 63.6 |
+| Access clarity | 50.5 |
+
+**Agent readiness 61.7** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 40.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agendaforge-app/](https://apis.io/providers/agendaforge-app/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for agendaforge-app: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/agendaforge-app/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
