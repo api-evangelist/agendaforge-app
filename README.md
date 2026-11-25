@@ -66,7 +66,7 @@
 
 AgendaForge is an AI-native event management platform that enables conferences to run call-for-papers, abstract review, agenda building, speaker and sponsor management, ticketing, door check-in, and event operations in a single workspace. It offers per-event pricing, white-glove onboarding, and integrates with Stripe and USDC for payments.
 
-**Areas:** Event Management · SaaS · AI-native · Conferences · Software
+**Areas:** Event Management · Software-as-a-Service · AI-native · Conferences · Software
 
 ## agendaforge-app on APIs.io
 
@@ -93,7 +93,7 @@ Event-driven and webhook contracts.
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Agendaforge App Agentic Access](https://apis.io/agentic-access/agendaforge-app/agendaforge-app-agentic-access/)
+- [agendaforge-app Agentic Access](https://apis.io/agentic-access/agendaforge-app/agendaforge-app-agentic-access/)
 
 #### JSON Schema (6)
 
@@ -122,27 +122,27 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Agendaforge App Authentication](https://apis.io/security/agendaforge-app/agendaforge-app-authentication/)
-- [Agendaforge App Domain Security](https://apis.io/security/agendaforge-app/agendaforge-app-domain-security/)
-- [Agendaforge App Vulnerability Disclosure](https://apis.io/security/agendaforge-app/agendaforge-app-vulnerability-disclosure/)
+- [agendaforge-app Authentication](https://apis.io/security/agendaforge-app/agendaforge-app-authentication/)
+- [agendaforge-app Domain Security](https://apis.io/security/agendaforge-app/agendaforge-app-domain-security/)
+- [agendaforge-app Vulnerability Disclosure](https://apis.io/security/agendaforge-app/agendaforge-app-vulnerability-disclosure/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [Agendaforge App Scopes](https://apis.io/scopes/agendaforge-app/agendaforge-app-scopes/)
+- [agendaforge-app Scopes](https://apis.io/scopes/agendaforge-app/agendaforge-app-scopes/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Agendaforge App Plans Pricing](https://apis.io/plans/agendaforge-app/agendaforge-app-plans-pricing/)
+- [agendaforge-app Plans Pricing](https://apis.io/plans/agendaforge-app/agendaforge-app-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [Agendaforge App Rate Limits](https://apis.io/rate-limits/agendaforge-app/agendaforge-app-rate-limits/)
+- [agendaforge-app Rate Limits](https://apis.io/rate-limits/agendaforge-app/agendaforge-app-rate-limits/)
 
 ## Where to find this API
 
@@ -163,34 +163,34 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 68.0** — exemplar · rubric 0.25.0 · scored 2026-10-29
+**Kin Score 65.2** — strong · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 66.1 |
-| Contract quality | 70.8 |
-| Contract governance | 79.1 |
-| Operational transparency | 58.4 |
+| Discoverability | 85.0 |
+| Contract quality | 73.8 |
+| Contract governance | 35.6 |
+| Operational transparency | 54.8 |
 | Developer ergonomics | 63.6 |
-| Access clarity | 50.5 |
+| Access clarity | 55.3 |
 
-**Agent readiness 61.7** — agent-native
+**Agent readiness 65.2** — agent-native
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
-| Reversibility Documented | — |
-| MCP Server | documented (partial credit) |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | documented (partial credit) |
+| MCP Server | verified |
 | Auth Clarity | bearer (partial credit) |
 | Idempotency | verified |
-| Error Semantics | documented (partial credit) |
+| Error Semantics | verified |
 | OpenAPI Examples | partial |
 | Rate Limit Signal | verified |
-| Event Surface Described | unknown |
+| Event Surface Described | derived (partial credit) |
 | Agent Skills | unknown |
 | Well Known Catalog | yes |
-| Consent Identity | — |
+| Consent Identity | deployed |
 | Agent Card | conformant |
 | Dry Run Mode | — |
 | Delegated Identity | — |
@@ -199,6 +199,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | partial |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | yes |
 
 **Regulatory alignment 40.2** — Horizontal (data, software, accessibility, platform)
 
